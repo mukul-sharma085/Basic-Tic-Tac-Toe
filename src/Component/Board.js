@@ -3,6 +3,9 @@ import Square from "./Square";
 import { useState } from "react";
 const Board = ()=>{
     const [state,setState]=useState(Array(9).fill(null))
+
+
+    
     const [isXTurn,setIsXTurn]=useState(true)
     
      const checkWinner = ()=>{
