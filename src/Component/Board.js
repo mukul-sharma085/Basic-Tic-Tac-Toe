@@ -6,7 +6,6 @@ const Board = ()=>{
     const [isXTurn,setIsXTurn]=useState(true)
 
 
-    
      const checkWinner = ()=>{
         const winnerLogic = [
             [0,1,2],
